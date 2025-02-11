@@ -55,7 +55,8 @@
             color: #333;
             line-height: 1.6;
             overflow-x: hidden;
-            position: relative; /* Required for balloon positioning */
+            position: relative;
+            /* Required for balloon positioning */
         }
 
         /* Container */
@@ -379,7 +380,8 @@
             width: 50px;
             height: 65px;
             border-radius: 50%;
-            background-color: rgba(228, 87, 87, 0.7); /* Soft Rose with opacity */
+            background-color: rgba(228, 87, 87, 0.7);
+            /* Soft Rose with opacity */
             animation: floatUp 5s linear infinite;
             bottom: -70px;
             /* Start below the viewport */
@@ -537,17 +539,13 @@
             <h2>Our Special Memories</h2>
             <div class="image-grid">
                 <!-- Gunakan URL yang BERBEDA untuk setiap gambar -->
-                <img src="https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Memory 1">
-                <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Memory 2">
-                <img src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Memory 3">
-                <img src="https://images.pexels.com/photos/207878/pexels-photo-207878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Memory 4">
-                <img src="https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                <img src="img1.jpeg" alt="Memory 1">
+                <img src="img2.jpeg" alt="Memory 2">
+                <img src="img3.jpeg" alt="Memory 3">
+                <img src="img4.jpeg" alt="Memory 4">
+                <img src="img5.jpeg"
                     alt="Memory 5">
-                <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                <img src="img6.jpeg"
                     alt="Memory 6">
             </div>
             <button class="btn" onclick="showMessage()">Show Thank You Message</button>
@@ -759,7 +757,8 @@
                 balloon.style.setProperty('--balloon-start-x', `${Math.random() * 100}%`);
                 balloon.style.setProperty('--balloon-delay', `${Math.random() * 5}s`); // Delay acak
                 balloonContainer.appendChild(balloon);
-            Q}
+                Q
+            }
         });
     </script>
 </body>
